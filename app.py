@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Flask CI/CD Pipeline with Docker Swarm ____vivek___MAHAGANAPATHI"
+    return "Flask CI/CD Pipeline with Dker Swarm "
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
