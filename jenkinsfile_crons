@@ -38,7 +38,7 @@ pipeline {
 
                 docker service create \
                   --name flask-swarm-cron-service \
-                  -p 5000:5000 \
+                  -p 5001:5000 \
                   flask-swarm-cron-app:1.0
                 '''
             }
